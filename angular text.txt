@@ -8,7 +8,7 @@ for bootstrap: npm i bootstrap@5.3.3
 
 "node_modules/bootstrap/dist/css/bootstrap.min.css"
 
-"node_modules/bootstrap/dist/js/bootstap.bundle.min.js"
+"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 
 
 For update: npm update
