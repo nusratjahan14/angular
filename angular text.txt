@@ -2,7 +2,7 @@ project open: ng new myangular --standalone false
 
 new file component open: ng g c student
 
-new file service open: ng h s location
+new file service open: ng g s location
 
 for bootstrap: npm i bootstrap@5.3.3
 
