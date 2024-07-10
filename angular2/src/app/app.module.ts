@@ -16,6 +16,7 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
     AppRoutingModule
   ],
   providers: [
+    provideClientHydration(),
     provideHttpClient(
       withFetch()
     )
