@@ -5,15 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LocationComponent } from './location/location.component';
 import { provideHttpClient, withFetch } from '@angular/common/http';
+import { CreatelocationComponent } from './createlocation/createlocation.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { UpdatelocationComponent } from './updatelocation/updatelocation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LocationComponent
+    LocationComponent,
+    CreatelocationComponent,
+    UpdatelocationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideClientHydration(),
