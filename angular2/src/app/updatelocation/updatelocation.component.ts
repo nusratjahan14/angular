@@ -25,6 +25,7 @@ export class UpdatelocationComponent implements OnInit{
     this.locationService.getById(this.id)
       .subscribe({
         next: res =>{
+          this.location = res;
           console.log(res);
         },
         error: err =>{
@@ -37,7 +38,7 @@ export class UpdatelocationComponent implements OnInit{
     this.locationService.updateLocation(this.id, this.location)
       .subscribe({
         next: res =>{
-          this.location = new Location();
+          // this.location = new Location();
           this.router.navigate(['location']);
         },
         error: err =>{
