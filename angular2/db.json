@@ -95,7 +95,7 @@
       "name": "Nusrat Jahan",
       "city": "dhaka",
       "state": "Dhaka",
-      "photo": "no",
+      "photo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fioflood.com%2Fblog%2Fkeywords-of-java%2F&psig=AOvVaw3BZIAXnbH2v2_Nfa_QZUVb&ust=1721302400161000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPCC06v9rYcDFQAAAAAdAAAAABAE",
       "availableUnits": "6",
       "wifi": "no",
       "laundry": "yes"
@@ -105,7 +105,7 @@
       "name": "Kamrul Islam",
       "city": "Australia",
       "state": "AU",
-      "photo": "no",
+      "photo": "https://cuet.academia.edu/MuhammedKamrulIslam",
       "availableUnits": "4",
       "wifi": true,
       "laundry": false
